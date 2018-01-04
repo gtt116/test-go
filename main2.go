@@ -1,4 +1,6 @@
 // This script test concurrent updates performance between using sync/atomic and sync.Mutext.
+// run by command: go run main2.go
+//
 // The result shown below, they are almost the same.
 //
 //     Mutex  count: 1000000 Using: 561.377536ms
